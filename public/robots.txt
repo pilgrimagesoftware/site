@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /soa/beta
+Disallow: /soa/beta/files
+Disallow: /*.zip$
+Disallow: /*.Zip$
+Disallow: /*.ZIP$

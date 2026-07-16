@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Proelia Release</title>
+<link>http://pilgrimagesoftware.com/products/proelia/updates/updates.xml</link>
+<description>Multiple RPG encounter tracker</description>
+<language>en</language>
+<item>
+<title>Version 1.0.1</title>
+<sparkle:releaseNotesLink>http://pilgrimagesoftware.com/products/proelia/updates/1.0.1.html</sparkle:releaseNotesLink>
+<pubDate>Fri, 15 Apr 2011 18:16:01 -0700</pubDate>
+<enclosure
+url="http://pilgrimagesoftware.com/products/proelia/files/Proelia-1.0.1.zip"
+sparkle:version="1.0.1"
+sparkle:shortVersionString="1.0.1"
+type="application/octet-stream"
+length="2627896"
+sparkle:dsaSignature="MC4CFQCEyp2FKbtD2Og1I0PhTjTqRPPG4gIVAO4TYM2efofHa8IEv4kRJbhL7Ayp"
+/>
+</item>
+<item>
+<title>Version 1.0.2</title>
+<sparkle:releaseNotesLink>http://pilgrimagesoftware.com/products/proelia/updates/1.0.2.html</sparkle:releaseNotesLink>
+<pubDate>Sun, 15 May 2011 07:42:01 -0700</pubDate>
+<enclosure
+url="http://pilgrimagesoftware.com/products/proelia/files/Proelia-1.0.2.zip"
+sparkle:version="1.0.2"
+sparkle:shortVersionString="1.0.2"
+type="application/octet-stream"
+length="2654511"
+sparkle:dsaSignature="MCwCFFH3ZTdS7EfAtwBUX24TLbQ8dx4/AhQyZEVIKN9n5Xdjb+JiYHlPW1/hDA=="
+/>
+</item>
+</channel>
+</rss>

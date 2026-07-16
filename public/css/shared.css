@@ -1,0 +1,512 @@
+@import url("reset.css");
+
+body {
+font-family: FertigoProRegular, "Trebuchet MS";
+  padding: 0;
+  text-align: left;
+  background-color: #ffffff;
+  font-size: 87.5%;
+  line-height: 1.429;
+}
+
+.content {
+  height: auto;
+  width: 75em;
+  clear: both;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-top-style: none;
+  border-top-color:#AAA;
+  border-top-width: thin;
+  border-bottom-style: none;
+  border-bottom-color:#AAA;
+  border-bottom-width: thin;
+  text-align:center;
+}
+
+img.right figure.right {
+  float: right;
+  margin: 0 0 2em 2em;
+}
+
+img.left, figure.left {
+  float: right;
+  margin: 0 0 2em 2em;
+}
+
+header, section, footer,
+  aside, nav, article, figure {
+    display: block;
+  }
+
+footer {
+font-size: 9px;
+clear: both;
+align: center;
+}
+
+article
+{
+    text-align: left;
+    padding-left:18em;
+}
+
+/* Base Font = 12px = 1em */
+
+/* 22px */
+h1 {
+  font-size: 1.833em
+}
+
+/* 20px */
+
+h2 {
+  font-size: 1.667em
+}
+
+/* 18px */
+
+h3 {
+  font-size: 1.5em
+}
+
+/* 16px */
+
+h4 {
+  font-size: 1.333em
+}
+
+/* 14px */
+
+h5 {
+  font-size: 1.167em
+}
+
+/* 12px */
+
+h6 {
+  font-size: 1em
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: .8em;
+}
+
+a {
+  outline: 0;
+}
+
+a img {
+  border: 0px;
+  text-decoration: none;
+}
+
+#applications.content a, #applications.content a:link,#applications.content a:visited {
+  color: #555555;
+}
+
+a:link, a:visited {
+  color: #556F9C;
+  padding: 0 0px;
+  text-decoration: none;
+  /*font-weight: bold;*/
+}
+
+a:hover, a:active {
+  color: #9ea1ad;
+}
+
+p {
+  margin-bottom: 1.143em;
+}
+
+* p:last-child {
+  margin-bottom: 0;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+em, i {
+  font-style: italic;
+}
+
+::-moz-selection {
+  background: #F6CF74;
+  color: #fff;
+}
+
+::selection {
+  background: #F6CF74;
+  color: #fff;
+}
+
+ul {
+  list-style: outside disc;
+  margin: 1em 0 1.5em 1.5em;
+}
+
+ol {
+  list-style: outside decimal;
+  margin: 1em 0 1.5em 1.5em;
+}
+
+dl {
+  margin: 0 0 1.5em 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 1.5em;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+cite {
+  
+}
+
+q {
+  
+}
+
+header#banner.body {
+  width: 55em;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+header {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav 
+{
+    position:relative;
+    top:0;
+    height:80px;
+}
+
+nav li {
+  display:inline;
+}
+
+nav ul li a {
+/*  border-left: 1px solid #000; */
+}
+
+nav ul li:first-child a {
+  border-left-style: none;
+}
+
+nav img
+{
+    position:absolute;
+    bottom:2px;
+}
+
+nav li a,nav li a:visited {
+  float: left;
+  font-size: 14px;
+  display: block;
+  margin: 4px 5px 0 5px;
+  padding-left: 0.8em !important;
+}
+
+#navLinkContainer
+{
+    display:block;
+    position:absolute;
+    bottom:2px;
+    width:100%;
+}
+
+#navLinkListFloater
+{
+    float:right;
+}
+
+#legal p {
+  width: 70em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 11px;
+  color:#555;
+}
+
+#products a:link, #products a:visited, nav a:link, nav a:visited  {
+  color: #555;
+}
+
+nav a:hover {
+    text-decoration:none;
+    color: #0f5cad;
+}
+
+.app {
+  float: left;
+  display: inline-block;
+}
+
+#large-apps {
+  display: inline-block;
+  margin-left: 2em;
+  padding-top: 5%;
+  margin-bottom: 2%;
+}
+
+#large-apps h1 {
+  padding-top: 0.5em;
+}
+
+img.appIcon {
+  padding-left: 10px;
+  float: left;
+  margin-right: 0.5em;
+}
+
+#large-apps > div.app {
+  padding: 5px;
+  width: 48%;
+  font-size: 1.1em;
+}
+
+#small-apps > div.app {
+  padding: 5px;
+  width: 15em;
+}
+
+h4.appName {
+  margin-bottom: 0.25em;
+}
+
+#small-apps {
+  padding-bottom: 15px;
+  margin-left: 5em;
+  border-top: 1px solid #AAA;
+  display: inline-block;
+  margin-top: 1px;
+  padding-top: 5%;
+}
+
+#product {
+  font-size: 10px;
+  padding: 5em;
+  width: 67em;
+}
+
+#title hgroup * {
+  text-align: left;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+#title h1 {
+  font-size: 2.5em;
+}
+
+#download a img {
+  width: 200px;
+}
+
+#product section {
+  margin-bottom: 2em;
+}
+
+#screenshots span {
+  display: block;
+}
+
+#screenshots div.blackscreen div.caption {
+}
+
+#screenshots div.blackscreen {
+  text-align: center;
+  min-height: 18em;
+}
+
+.screenshotThumbnail
+{
+    border:1px solid;
+    width:230px;
+    height:128px;
+}
+
+
+div.container
+{
+    overflow: hidden;
+    width: 100%;
+}
+
+section#screenshots > div.container > div
+{
+    float:left;
+    margin:1em 1em 1em 0;
+}
+
+div[id$="Screenshot"] {
+  display: none;
+}
+
+span.featureText
+{
+    display:block;
+    margin:0 1em 1em 0;
+}
+
+#features h3
+{
+    line-height:1em;
+    margin-top:1em;
+}
+
+#featuresLeft
+{
+    float:left;
+    width:48%;
+}
+
+#featuresRight
+{
+    float:right;
+    width:48%;
+}
+
+#featuresRight span, #featuresLeft span
+{
+}
+
+#product aside {
+  width: 16em;
+  float: left;
+  margin-right: 2em;
+}
+
+#product aside img 
+{
+    margin-left:auto; margin-right:auto; display:block;
+}
+
+.TestimonialQuote {
+  margin-bottom: 0;
+  margin-top: 0.5em;
+  font-weight: bold;
+  font-size: 1em;
+  color: #555555;
+}
+
+span.author, #product aside div.TestimonialSection span  {
+  display: block;
+}
+
+#product aside span.author img 
+{
+    display:inline;
+}
+
+
+#download #universal-bin {
+  margin: 0 0 15px !important;
+}
+
+#download p {
+  font-size: 1.4em;
+  margin-bottom: 0.3em;
+}
+
+div#support.content article, div#about.content article {
+  padding: 1em 2em 2em;
+}
+
+#support article header, #about article header {
+  color: #666;
+  font-size: 2em;
+  padding-bottom: 0.5em;
+}
+
+#faq dt {
+  margin-top: 0.5em;
+}
+
+#contact ul {
+	display: inline;
+}
+
+#contact ul li {
+	position: relative;
+	display: inline;
+}
+
+#contact {
+	text-align: center;
+	width: 100%;
+}
+
+section.company {
+	border-top-color: #e6e6e6;
+	border-top-style: dotted;
+	border-top-width: thin;
+	padding-top: 20px;
+	color: #666666;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+
+.contact-header {
+}
+
+.info-content {
+	padding-bottom: 20px;
+	width: 800px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	font-size: 12px;
+}
+
+.roadmap-header {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.roadmap-details {
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.roadmap-item {
+	padding-bottom: 20px;
+	clear: left;
+	text-align: left;
+	width: 400px;
+}
+
+.roadmap-left {
+	clear: left;
+	float: left;
+}
+
+.roadmap-right {
+	clear: right;
+	float: right;
+}
+
+#product section header {
+	text-align: left;
+}
+

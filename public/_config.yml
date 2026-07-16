@@ -1,0 +1,9 @@
+title: Pilgrimage Software
+description: Software for iOS and Mac by Paul Schifferer
+url: "https://pilgrimagesoftware.com"
+
+exclude:
+  - "soa/beta"
+  - "products/proelia2/files"
+  - "pr/*"
+  - "license.txt"

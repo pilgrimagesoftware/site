@@ -1,0 +1,135 @@
+html {
+	overflow-y: scroll;
+}
+
+body  {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	font-family: 'Muli', sans-serif;
+	background-color: #666666;
+	background-image: url(/images/main-background.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	text-decoration: none;
+	opacity: 0.9;
+}
+#leftcontainer {
+	-webkit-border-radius: 23px;
+	-moz-border-radius: 23px;
+	border-radius: 23px;
+	width: 202px;
+	color:#666;
+	position:fixed;
+	left:24px;
+	float:left;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	-moz-box-shadow: 3px 3px 10px #333;
+	box-shadow: 3px 3px 10px #333;
+	background-color: #FFF;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "Muli", sans-serif;
+}
+
+#dynamic_content {
+	-webkit-border-radius: 23px;
+	-moz-border-radius: 23px;
+	border-radius: 23px;
+	color:#666;
+	position:absolute;
+	left: 290px;
+	width: 600px;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	-moz-box-shadow: 3px 3px 10px #333;
+	box-shadow: 3px 3px 10px #333;
+	background-color: #FFF;
+	top: 51px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: left;
+	font-size: 17px;
+	font-family: "Muli", sans-serif;
+}
+
+#dynamic_content h1 {
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: none;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1.2;
+}
+
+
+#footer {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color:#666;
+	position:fixed;
+	left:28px;
+	background-color: #FFF;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	-moz-box-shadow: 3px 3px 10px #333;
+	box-shadow: 3px 3px 10px #333;
+	top: 100%;
+	margin-top: -53px;
+	padding-bottom: 13px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 5px;
+	width: 180px;
+	height: 94px;
+	font-size: 9px;
+}
+a:link {
+	color: #222;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #889076;
+}
+a:hover {
+	text-decoration: none;
+	color: #930;
+}
+a:active {
+	text-decoration: none;
+	color: #889076;
+}
+a:image-border {
+	text-decoration: none;
+	border: 0 none;
+	}
+
+b1 {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 32px;
+	color: #930;
+}
+
+b2 {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 28px;
+	color: #222;
+}
+
+f1 {
+	font-family: "Muli", sans-serif;
+	color: #222;
+	font-size: 11px;
+}
+f2 {
+	font-family: "Muli", sans-serif;
+	color: #222;
+	font-size: 8px;
+}

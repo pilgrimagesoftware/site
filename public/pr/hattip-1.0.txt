@@ -1,0 +1,39 @@
+Press Release
+
+Pilgrimage Software is proud to announce the release of HaTTiP, an HTTP web services client for the Mac. HaTTiP is an attractive, easy-to-use, scriptable developer tool for testing HTTP/RESTful web services.
+
+Palmdale, California - Palmdale, California - Palmdale, California - Pilgrimage Software is proud to announce the release of HaTTiP, an HTTP web services client for the Mac. HaTTiP has a simple, attractive user interface designed to easily setup and execute requests against HTTP or RESTful service APIs. The application also supports the execution of scripts (in the Javascript language) that can dynamically alter a request before it is submitted, allowing for such things as signature generation, header modification, and POST/PUT body generation.
+
+Features:
+* Easy to use - HaTTiP has a simple, easy-to-use interface. Select a method, input the URL, set some headers, and you're set.
+* Formatting and colorizing - Request and response bodies can be displayed raw, or formatted and colorized for easy reading.
+* Document-based - Save each request separately so they can be recalled and reused later.
+* Scripting - Supports execution of a pre-processing script that can dynamically modify the outgoing request. Currently supports the use of Javascript, with more languages coming in a later release.
+
+System Requirements:
+* Mac OS X Version 10.9 Lion or later
+* Intel
+* 64 Processor, 1GHz or faster
+* 20.0 MB Hard Drive space
+
+Pricing and Availability:
+HaTTiP (v1.0) is only $9.99 USD (or equivalent amount in other currencies) and available worldwide exclusively through the App Store in the Developer Tools category. 
+
+Pilgrimage Software - http://pilgrimagesoftware.com
+HaTTiP 1.0 - http://pilgrimagesoftware.com/products/hattip
+Purchase and Download - https://itunes.apple.com/us/app/hattip/id828152861
+Screenshot 1 - http://pilgrimagesoftware.com/images/products/hattip/document.png
+Screenshot 2 - http://pilgrimagesoftware.com/images/products/hattip/edit-script.png
+App Icon - http://pilgrimagesoftware.com/images/hattip-logo-large.png
+
+ 
+
+Located in Palmdale, California, Pilgrimage Software was founded in 2010 by Paul Schifferer. All Material and Software (C) 2010-2014 Pilgrimage Software / All Rights Reserved. Apple, the Apple logo, iPod, the iPod logo, are registered trademarks of Apple Computer in the U.S. and/or other countries.
+
+###
+
+Paul Schifferer
+Owner
+
+
+ 

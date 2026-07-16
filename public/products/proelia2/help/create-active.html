@@ -1,0 +1,171 @@
+---
+layout: default
+extra_head: <link rel="stylesheet" type="text/css" href="/css/help.css" />
+---
+
+ <div id="proelia2"><a href="" target="_blank"><img src="/images/apps/proelia2/proelia2-logo.jpg" alt="Proelia logo" width="400" height="64" border="0" /></a></div>
+  <h1><a href="index.html">Help</a> - Creating an Active Encounter</h1>
+
+Once you have created an encounter, and you actually want to run an instance of it, you use the "run encounter" button <img src="/images/products/proelia2/help/prepared-encounter-run-button.png" /> or choose the "Run" menu item from the home screen's encounter context menu.
+<p/>
+A new window for the active encounter will appear:
+<p/>
+<div align="center">
+<a class="lightbox" href="/images/products/proelia2/help/active-encounter.png">
+<img src="/images/products/proelia2/help/active-encounter-thumb.png"/>
+</a>
+</div>
+<p/>
+The encounter window is divided up into several sections:
+<dl>
+<dt>Encounter information</dt>
+<dd>This section is located in the top-left corner of the window, below the title bar.  The encounter's name, category, and game system fields are here.  Note that unlike a prepared encounter, you cannot edit the active encounter's game system.
+<p/>
+In addition, the notes button <img src="/images/products/proelia2/help/prepared-encounter-notes-button.png"/> is located on the right side of this section.
+<p/>
+Below the notes button, two additional buttons are available: the "start/stop" button <img src="/images/products/proelia2/help/active-encounter-start-button.png"/> and the "next participant" button <img src="/images/products/proelia2/help/active-encounter-next-button.png"/>.  When an active encounter is created, it is not yet "running".  You start an active encounter by clicking the "start" button.  Once it is running, the "start" button becomes a "stop" button; clicking it will stop the encounter.  The "next participant" button, which is only enabled when the encounter is running, progresses the current turn to the next eligible participant, or, if the end of the list is reached, returns to the top of the list.
+</dd>
+<dt>Participant list</dt>
+<dd>This section is located along the remainder of the left side of the window.  All of the participants and regions in the encounter are in this section.  At the bottom of the list are buttons for adding and removing participants and regions to/from the encounter.  There is also a button for invoking a manual sort of the participant list, according to the order value of each.</dd>
+<dt>Encounter map and controls</dt>
+<dd>This section takes up the rest of the window.  The map (or map grid) takes up the majority of the section.  Above it are located the "map tools" that allow you to alter elements of the map's display:<br/>
+<div align="center">
+<img src="/images/products/proelia2/help/active-map-tools-row.png"/>
+</div>
+<dl>
+<dt>"Show"</dt>
+<dd>There are two toggle buttons here that affect the display of tokens on the map:
+<dl>
+<dt><i>Borders</i></dt>
+<dd>Determines if a border is drawn around each token.</dd>
+<dt><i>Conditions</i></dt>
+<dd>Determines if conditions for the participant are displayed with the token.  Conditions are displayed in a row along the top of the token.</dd>
+<dt><i>Removed</i></dt>
+<dd>Determines if participants who have been "removed" from the encounter are hidden or displayed on the map.  (See the Removed button description below for more information.)</dd>
+</dl>
+</dd>
+<dt>"Map"</dt>
+<dd>Clicking this button will display a popover that allows you to alter the map itself:<br/>
+<div align="center">
+<img src="/images/products/proelia2/help/map-tools.png"/>
+</div>
+<br/>
+The map tools popover contains a number of tools:
+<dl>
+<dt><i>Show</i></dt>
+<dd>There are two toggle buttons here that affect the map:
+<dl>
+<dt>Map</dt>
+<dd>Toggles the display of the map background image.  If no map background image has been set, this button is disabled.</dd>
+<dt>Grid</dt>
+<dd>Toggles the display of horizontal and vertical grid lines over the map.  Grid lines can be displayed on the map regardless of whether the map has a background image, or is just a blank area.</dd>
+</dl>
+</dd>
+<dt><i>Scale/Size</i></dt>
+<dd>This row may display a different set of controls depending on whether the map is displaying a background image or a blank area:
+<dl>
+<dt>Background image mode</dt>
+<dd>A slider control appears here that allows you to change the size of the map's background image.  By default, when a background image is set, it is displayed at its original size.  You can change this by moving the slider knob or using the up/down arrows.</dd>
+<dt>Blank mode</dt>
+<dd>A pair of text entries appear here that allow you to set the size of the map in horizontal and vertical squares.</dd>
+</dl>
+</dd>
+<dt><i>Grid Lines</i></dt>
+<dd>When grid lines are drawn on the map, these controls allow you to set the thickness, color, and style of the lines.</dd>
+<dt><i>Grid Offsets</i></dt>
+<dd>When grid lines are drawn on the map, these controls allow you to "nudge" the positioning of the first line (and all subsequent lines) from the top and/or left of the map.</dd>
+<dt><i>Background</i></dt>
+<dd>Two buttons are here that allow you to choose a background image for the map, or clear the current image.</dd>
+</dl>
+</dd>
+<dt>"Zoom"</dt>
+<dd>This popup menu allows you to set the zoom level of the map.  Everything on the map is affected by this setting, allowing you to shrink or enlarge the map display so that you can fit everything on-screen, or zoom in to get a better view of something.</dd>
+</dl>
+</dd>
+</dl>
+
+<p/>
+The participant list contains all of the participants and regions in the encounter.  Participants are listed first, in whatever order you determine (or, as the encounter is progressing, according to "initiative order"), and regions are displayed at the bottom of the list.
+<p/>
+A participant entry looks like this:
+<p/>
+<div align="center">
+<img src="/images/products/proelia2/help/active-participant.png" />
+</div>
+<p/>
+On the left is the participant token, as it will appear on the map (except for size/scale).
+<p/>
+On the right is the hand of the lich.  If you dare, you can grab it to drag the participant to a new position in the list.
+<p/>
+The remainder of the participant entry contains a number of things:
+<dl>
+<dt><i>Type selector</i></dt>
+<dd>This button, in the upper-left corner, lets you select what type of participant this is: a player character (<img src="/images/products/proelia2/help/participant-type-pc.png"/>), adversary (<img src="/images/products/proelia2/help/participant-type-adversary.png"/>), or object (<img src="/images/products/proelia2/help/participant-type-object.png"/>).  Note that the color of the dotted-line border around the participant's information also serve to indicate the type of the participant: blue for player characters, red for adversaries, green for objects.</dd>
+<dt><i>Tools menu</i></dt>
+<dd>The tools menu is accessed by clicking on the "tools" button (<img src="/images/products/proelia2/help/participant-tools-button.png"/>).  From this menu, you can:
+<ul>
+<li>set or clear the token image;</li>
+<li>set the color and marker text;</li>
+<li>change the size of the token on the map (the number of squares on-a-side the token takes up);</li>
+<li>reset the position of the token on the map (to the upper-left corner);</li>
+<li>duplicate the participant (make an exact copy);</li>
+<li>remove the participant from the encounter.</li>
+</dd>
+<dt><i>Info button</i></dt>
+<dd>Clicking this button (in the upper-right corner) displays a popover where you can record notes about the participant, or link it to an external source, such as <a href="import-iplay4e.html">iPlay4e</a>, or a DDI <a href="import-ddicb.html">Character Builder</a> or <a href="import-ddimb.html">Monster Builder</a> file.</dd>
+<dt><i>Name</i></dt>
+<dd>Click the text field at the top of the area to set the name of the participant.</dd>
+<dt><i>Order</i></dt>
+<dd>The number field located between the participant type selector and the tools menu button shows the order value for the participant.  Click here to change the value.</dd>
+<dt><i>Health values</i></dt>
+<dd>The vertical group of number values ("health", "max", and "temp") are the health of the participant.  "Health" portrays the current health value (known as "hit points" in some game systems); "max" portrays the upper limit for the participant's health; "temp" portrays a buffer of health that the participant may use.  Note that:
+<ul>
+<li>Some game systems prevent the participant's health from exceeding the "max" value.</li>
+<li>Some game systems use the "temp" value when adjusting (up or down) the health value, and might adjust it automatically.</li>
+</dd>
+<dt><i>Removed indicator</i></dt>
+<dd>This toggle button allows you to manually "remove" a participant from the encounter with actually removing them from the encounter.  Confused?  By marking a participant as removed, it is skipped during the progression of turns, and its token is hidden from the map (this can be overridden).  Note that some game systems will automatically set this indicator when the participant's health value falls below a certain number.</dd>
+<dt><i>Conditions</i></dt>
+<dd>The majority of the lower portion display conditions that are applied to this participant.  At the far left is a button (<img src="/images/products/proelia2/help/add-condition-button.png"/>) to add a condition to this participant (the button only appears when the mouse pointer is in the area).</dd>
+</dl>
+<p/>
+There is a special feature regarding the naming of adversary type participants: if more than one adversary has the same name, a special "tag" is created in each of the participants' tokens.  The tag appears in the lower-right corner along the token's white border.  It looks something like this: <img src="/images/products/proelia2/help/tag.png"/>.  This feature is automatic, and cannot be invoked manually.  It only applies to adversary types, and doesn't affect player character or object type participants.
+<p/>
+A region entry looks like this:
+<p/>
+<div align="center">
+<img src="/images/products/proelia2/help/active-region.png" />
+</div>
+<p/>
+On the left is a small version of the region, as it would appear on the map (except for size/scale).
+<p/>
+On the right is the hand of the lich.  If you dare, you can grab it to drag the region to a new position in the list.  <i>Note that you cannot drag the region amongst the participants in the list: regions are always displayed at the bottom of the list.</i>
+<p/>
+The remainder of the region entry contains a number of things:
+<dl>
+<dt><i>Tools menu</i></dt>
+<dd>The tools menu is accessed by clicking on the "tools" button (<img src="/images/products/proelia2/help/region-tools-button.png"/>).  From this menu, you can:
+<ul>
+<li>set the color;</li>
+<li>reset the position of the region on the map (to the upper-left corner);</li>
+<li>duplicate the region (make an exact copy);</li>
+<li>remove the region from the encounter.</li>
+</dd>
+<dt><i>Info button</i></dt>
+<dd>Clicking this button (in the upper-right corner) displays a popover where you can record notes about the region.</dd>
+<dt><i>Name</i></dt>
+<dd>Click the text field at the top of the area to set the name of the region.</dd>
+<dt><i>Dimensions</i></dt>
+<dd>The vertical group of number values ("width" and "height") represent the size of the region in map squares.</dd>
+</dl>
+<p/>
+<p/>
+<div><a href="index.html">&larr; back</a></div>
+  
+</div>
+
+
+
+<script type="text/javascript">
+$('a.lightbox').lightBox();
+</script>
