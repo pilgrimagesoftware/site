@@ -9,7 +9,7 @@ body  {
 	color: #000000;
 	font-family: 'Muli', sans-serif;
 	background-color: #666666;
-	background-image: url(/images/main-background.jpg);
+	background-image: url(images/main-background.jpg);
 	background-repeat:no-repeat;
 	background-position:center;
 	background-attachment:fixed;
