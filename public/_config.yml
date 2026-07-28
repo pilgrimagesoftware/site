@@ -1,8 +1,7 @@
 title: Pilgrimage Software
 description: Software for iOS and Mac by Paul Schifferer
-#url: "https://pilgrimagesoftware.com"
-url: "https://pilgrimagesoftware.github.io"
-baseurl: "/site"
+url: "https://pilgrimagesoftware.com"
+baseurl: ""
 
 exclude:
   - "soa/beta"
