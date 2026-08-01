@@ -20,17 +20,13 @@ jobs:
         with:
           source: ./public
           destination: ./_site
-      - name: SFTP upload
-        uses: Dylan700/sftp-upload-action@v1.2.4
-        with:
-          server: ${{ secrets.DH_HOST }}
-          username: ${{ secrets.DH_USERNAME }}
-          password: ${{ secrets.DH_PASSWORD }}
-          port: 22
-          uploads: |
-            ./_site/ => ./pilgrimagesoftware.com/
-          ignore: |
-            *.git
-            */**/*git*
-            CNAME
-          delete: true
+      - name: rsync deploy
+        uses: easingthemes/ssh-deploy@v6.0.1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DH_SSH_KEY }}
+          REMOTE_HOST: ${{ secrets.DH_HOST }}
+          REMOTE_USER: ${{ secrets.DH_USERNAME }}
+          SOURCE: _site/
+          TARGET: pilgrimagesoftware.com/
+          ARGS: -rlgoDzvc -i --delete
+          EXCLUDE: CNAME
