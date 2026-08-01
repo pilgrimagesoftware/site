@@ -15,6 +15,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./public
+          destination: ./_site
       - name: SFTP upload
         uses: Dylan700/sftp-upload-action@v1.2.4
         with:
@@ -23,7 +28,9 @@ jobs:
           password: ${{ secrets.DH_PASSWORD }}
           port: 22
           uploads: |
-            ./public/ => ./pilgrimagesoftware.com/public/
+            ./_site/ => ./pilgrimagesoftware.com/
           ignore: |
             *.git
             */**/*git*
+            CNAME
+          delete: true
