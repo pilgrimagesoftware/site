@@ -39,6 +39,39 @@ extra_head: <meta name="apple-itunes-app" content="app-id=937898237"/>
 
 <hr/>
 
+<h2>Download</h2>
+
+<style>
+#libri-downloads { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0; }
+#libri-downloads a, #libri-downloads span { display: flex; align-items: center; gap: 8px; padding: 10px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none; color: #333; }
+#libri-downloads a:hover { background: #f5f5f5; }
+#libri-downloads span.disabled { color: #999; border-color: #ddd; }
+#libri-downloads svg { width: 20px; height: 20px; fill: currentColor; flex-shrink: 0; }
+</style>
+
+<div id="libri-downloads">
+<a href="https://github.com/pilgrimagesoftware/dtrpg-app.rs/releases/download/0.1.1/Libri_0.1.1_aarch64.dmg">
+<svg viewBox="0 0 24 24"><path d="M16.365 1.43c0 1.14-.462 2.017-1.386 2.7-.988.741-2.021 1.17-3.058 1.086-.093-1.104.402-2.234 1.34-2.98.986-.784 2.15-1.192 3.104-1.236zM20.24 17.03c-.442.98-.649 1.409-1.212 2.275-.789 1.204-1.9 2.702-3.278 2.717-1.223.013-1.539-.795-3.2-.79-1.663.006-2.01.804-3.234.79-1.378-.014-2.43-1.36-3.219-2.564-2.204-3.36-2.435-7.303-1.076-9.4.966-1.49 2.49-2.362 3.925-2.362 1.462 0 2.38.8 3.593.8 1.176 0 1.888-.802 3.593-.802 1.28 0 2.635.696 3.6 1.898-3.162 1.734-2.65 6.247.508 7.44z"/></svg>
+macOS (Apple Silicon)
+</a>
+<a href="https://github.com/pilgrimagesoftware/dtrpg-app.rs/releases/download/0.1.1/Libri_0.1.1_amd64.deb">
+<svg viewBox="0 0 24 24"><path d="M12.5 1.6c-.5 0-1 0-1.5.1v1.6c.5-.1 1-.1 1.5-.1 4.6 0 8.4 3.7 8.4 8.4 0 1-.2 2-.5 2.9l1.4.9c.5-1.2.8-2.5.8-3.8 0-5.5-4.5-10-10.1-10zM11 3.4C6.3 3.9 2.6 7.9 2.6 12.6c0 5.5 4.5 10 10 10 2.6 0 5-1 6.8-2.7l-1.1-1.2c-1.5 1.4-3.5 2.3-5.7 2.3-4.6 0-8.4-3.7-8.4-8.4 0-3.8 2.6-7.1 6.1-8.1L11 3.4zm4.2 5.3c-.4 0-.8.3-.8.8v5.7c0 .4.4.8.8.8s.8-.4.8-.8V9.5c0-.5-.4-.8-.8-.8zm-3.3 1.9c-.4 0-.8.3-.8.7v3.8c0 .4.4.7.8.7s.8-.3.8-.7v-3.8c0-.4-.4-.7-.8-.7z"/></svg>
+Linux (.deb)
+</a>
+<a href="https://github.com/pilgrimagesoftware/dtrpg-app.rs/releases/download/0.1.1/Libri_0.1.1_x86_64.AppImage">
+<svg viewBox="0 0 24 24"><path d="M12.5 1.6c-.5 0-1 0-1.5.1v1.6c.5-.1 1-.1 1.5-.1 4.6 0 8.4 3.7 8.4 8.4 0 1-.2 2-.5 2.9l1.4.9c.5-1.2.8-2.5.8-3.8 0-5.5-4.5-10-10.1-10zM11 3.4C6.3 3.9 2.6 7.9 2.6 12.6c0 5.5 4.5 10 10 10 2.6 0 5-1 6.8-2.7l-1.1-1.2c-1.5 1.4-3.5 2.3-5.7 2.3-4.6 0-8.4-3.7-8.4-8.4 0-3.8 2.6-7.1 6.1-8.1L11 3.4zm4.2 5.3c-.4 0-.8.3-.8.8v5.7c0 .4.4.8.8.8s.8-.4.8-.8V9.5c0-.5-.4-.8-.8-.8zm-3.3 1.9c-.4 0-.8.3-.8.7v3.8c0 .4.4.7.8.7s.8-.3.8-.7v-3.8c0-.4-.4-.7-.8-.7z"/></svg>
+Linux (.AppImage)
+</a>
+<span class="disabled">
+<svg viewBox="0 0 24 24"><path d="M0 3.449 9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+Windows (coming soon)
+</span>
+<a href="https://github.com/pilgrimagesoftware/dtrpg-app.rs/releases/latest">
+<svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.79-.25.79-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.34.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.42-2.7 5.39-5.26 5.68.42.36.78 1.08.78 2.18 0 1.58-.01 2.85-.01 3.24 0 .3.21.66.8.55A10.52 10.52 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"/></svg>
+GitHub
+</a>
+</div>
+
 <h2>SDK</h2>
 
 There's also an SDK available so you can integrate access to DriveThruRPG into your own apps, covering authentication, library lookup, and downloads.
