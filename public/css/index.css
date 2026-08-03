@@ -9,3 +9,10 @@
 .product-desc {
 	font-size: 10px;
 }
+
+#hero-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; text-align: center; margin: 16px 0; }
+#hero-grid a { text-decoration: none; color: inherit; }
+#hero-grid img { width: 128px; height: 128px; border: 0; }
+#hero-grid img[alt="Initiative!"] { border-radius: 12px; }
+#hero-grid p { margin: 8px 0 0; }
+#support-box { text-align: center; margin: 16px 0; }

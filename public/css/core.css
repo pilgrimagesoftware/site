@@ -38,7 +38,7 @@ body  {
 	font-family: "Muli", sans-serif;
 }
 
-#dynamic_content {
+.dynamic_content {
 	-webkit-border-radius: 23px;
 	-moz-border-radius: 23px;
 	border-radius: 23px;
@@ -60,7 +60,7 @@ body  {
 	font-family: "Muli", sans-serif;
 }
 
-#dynamic_content h1 {
+.dynamic_content h1 {
 	font-size: 26px;
 	font-style: normal;
 	font-weight: 400;
