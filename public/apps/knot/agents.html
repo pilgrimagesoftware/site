@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<p><a href="index.html">&laquo; Back to Knot</a></p>
+<h1>Agents and workspaces</h1>
+
+<h2>Agents</h2>
+<p>An agent is a running AI coding CLI&mdash;Claude Code, Codex, Gemini CLI, GitHub Copilot, OpenCode, a shell, or a custom command&mdash;bound to a launch configuration that says which CLI to run and how. Knot talks to most agents over ACP (the Agent Client Protocol), and shows them through its own panel UI: chat, tool calls, and diffs render as structured turns rather than raw terminal text. Agent types without a registered ACP adapter still run in a terminal grid instead.</p>
+<p>You can create, rename, select, close, restart, and reattach agents at any time. Reattaching picks a session back up rather than starting over.</p>
+
+<h2>Agent status</h2>
+<p>Every agent shows a live status so you can tell at a glance which ones need your attention:</p>
+<ul>
+<li><i>Working</i>: the agent is actively running.</li>
+<li><i>Idle</i>: the agent is waiting with nothing in progress.</li>
+<li><i>Awaiting input</i>: the agent needs a response from you before it can continue.</li>
+<li><i>Error</i>: the agent has hit a problem.</li>
+</ul>
+
+<h2>Workspaces</h2>
+<p>A workspace groups agents together, usually around a single repository or project. Like agents, workspaces can be created, renamed, selected, closed, restarted, and reattached.</p>
+<p>Knot discovers Git repositories and their linked worktrees on disk, and surfaces each one's status, diffs, and change statistics, so you can see what an agent has changed without leaving the app.</p>
+
+<h2>Coordinating multiple agents</h2>
+<p>Knot runs a local MCP server so agents can message each other and share context instead of working in isolation. This is useful when you want to split a task across several agents, or have one agent hand work off to another.</p>
+
+<hr/>
+
+<p>Something not covered here? <a href="/contact/">Let us know</a>, or open an issue on <a href="https://github.com/pilgrimagesoftware/Knot/issues">GitHub</a>.</p>

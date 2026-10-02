@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<p><a href="index.html">&laquo; Back to Knot</a></p>
+<h1>Installing on macOS</h1>
+
+<p>Knot is currently unsigned. After you've installed it in <code>/Applications</code>, macOS will refuse to launch it, and Gatekeeper's TCC checks will block it from making network connections, until you remove the quarantine flag and ad-hoc sign it:</p>
+
+<pre>xattr -d com.apple.quarantine "/Applications/Knot.app"
+codesign --force --deep --sign - "/Applications/Knot.app"</pre>
+
+<p>Run both commands in Terminal, then launch Knot normally.</p>
+
+<hr/>
+
+<p>Something not covered here? <a href="/contact/">Let us know</a>, or open an issue on <a href="https://github.com/pilgrimagesoftware/Knot/issues">GitHub</a>.</p>

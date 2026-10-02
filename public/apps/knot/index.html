@@ -4,41 +4,22 @@ layout: default
 <p><a href="{{ site.baseurl }}/apps/">&laquo; Back to apps</a></p>
 <h1>Knot</h1>
 
-<p>Knot is a desktop app for running and tying together multiple AI coding agents. Each agent gets its own terminal session, workspace, status, and MCP connection.</p>
+<p>Knot is a desktop app for running and tying together multiple AI coding agents. Each agent gets its own session, status, and MCP connection, so you can run several at once and keep track of what each one is doing.</p>
 
 <p>Source on <a href="https://github.com/pilgrimagesoftware/Knot">GitHub</a>. Report issues or request features on the <a href="https://github.com/pilgrimagesoftware/Knot/issues">issue tracker</a>.</p>
 
 <hr/>
 
 <h2>What Knot does</h2>
-<p>Each AI coding agent you run&mdash;Claude Code, Codex, Gemini CLI, GitHub Copilot, OpenCode, a shell, or a custom command&mdash;gets its own terminal session inside Knot. Knot tracks whether each agent is working, idle, awaiting input, or in an error state, and gives agents a way to message each other and coordinate through a local MCP server.</p>
+<p>Each AI coding agent you run&mdash;Claude Code, Codex, Gemini CLI, GitHub Copilot, OpenCode, a shell, or a custom command&mdash;runs inside Knot's own interface rather than a bare terminal window. Knot tracks whether each agent is working, idle, awaiting input, or in an error state, and gives agents a way to message each other and coordinate through a local MCP server.</p>
 
-<h2>Agents and workspaces</h2>
-<p>An agent is a terminal session bound to a launch configuration (which CLI to run and how). A workspace groups agents together, usually around a single repository or project. You can create, rename, select, close, restart, and reattach both agents and workspaces.</p>
-<p>Knot discovers Git repositories and their linked worktrees, and surfaces Git status, diffs, and change statistics for each one, so you can see what an agent has changed without leaving the app.</p>
-
-<h2>Agent status</h2>
-<p>Every agent shows a live status so you can tell at a glance which ones need your attention:</p>
+<h2>Learn more</h2>
 <ul>
-<li><i>Working</i>: the agent is actively running.</li>
-<li><i>Idle</i>: the agent is waiting with nothing in progress.</li>
-<li><i>Awaiting input</i>: the agent needs a response from you before it can continue.</li>
-<li><i>Error</i>: the agent has hit a problem.</li>
+<li><a href="agents.html">Agents and workspaces</a> &mdash; sessions, status, repositories, and worktrees</li>
+<li><a href="personas.html">Personas</a> &mdash; reusable instruction blocks for your agents</li>
+<li><a href="settings.html">Settings</a> &mdash; what you can configure, pane by pane</li>
+<li><a href="installation.html">Installing on macOS</a> &mdash; unblocking the unsigned build</li>
 </ul>
-
-<h2>Coordinating multiple agents</h2>
-<p>Knot runs a local MCP server so agents can message each other and share context instead of working in isolation. This is useful when you want to split a task across several agents, or have one agent hand work off to another.</p>
-
-<h2>Settings and personas</h2>
-<p>Agents, workspaces, personas, and app settings are persisted between launches, so your setup is there the next time you open Knot.</p>
-
-<h2>Supported agents</h2>
-<p>Knot can launch Claude Code, Codex, Gemini CLI, GitHub Copilot, OpenCode, a plain shell, or any custom command you configure.</p>
-
-<h2>Installing on macOS</h2>
-<p>Knot is currently unsigned. After installing it in <code>/Applications</code>, macOS will block it from launching or from making network connections until you remove the quarantine flag and ad-hoc sign it:</p>
-<pre>xattr -d com.apple.quarantine "/Applications/Knot.app"
-codesign --force --deep --sign - "/Applications/Knot.app"</pre>
 
 <hr/>
 
