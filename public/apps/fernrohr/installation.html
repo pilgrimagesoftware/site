@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<p><a href="index.html">&laquo; Back to Fernrohr</a></p>
+<h1>Installing on macOS</h1>
+
+<p>The <code>.app</code> and <code>.dmg</code> from the Package workflow are ad-hoc signed, so Apple Silicon runs the app and TCC can remember its local network permission &mdash; you don't need to sign it yourself.</p>
+
+<p>An ad-hoc signature carries no Developer ID and isn't notarized, though, so Gatekeeper still blocks a copy downloaded through a browser: it reports the app as damaged or from an unidentified developer. Once you've installed it in <code>/Applications</code>, clear the quarantine flag:</p>
+
+<pre>xattr -d com.apple.quarantine "/Applications/Fernrohr.app"</pre>
+
+<p>Or open it once from System Settings &rarr; Privacy &amp; Security &rarr; Open Anyway. Builds made before signing landed still need an ad-hoc signature applied manually:</p>
+
+<pre>codesign --force --sign - "/Applications/Fernrohr.app"</pre>
+
+<p>Fernrohr requires <code>ssh</code> on your <code>PATH</code> to connect any kube context bound to an SSH tunnel &mdash; it shells out to the system OpenSSH client rather than bundling its own.</p>
+
+<hr/>
+
+<p>Something not covered here? <a href="/contact/">Let us know</a>, or open an issue on <a href="https://github.com/pilgrimagesoftware/Fernrohr-App/issues">GitHub</a>.</p>
